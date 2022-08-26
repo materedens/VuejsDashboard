@@ -50,6 +50,8 @@ export default {
       { title: "About", icon: "mdi-folder-table-outline", to: "/about" },
       { title: "Table", icon: "mdi-folder-table-outline", to: "/table" },
       { title: "Account", icon: "mdi-account-circle", to: "/account" },
+      { title: "Card", icon: "mdi-card-account-details", to: "/card" },
+      { title: "Calendars", icon: "mdi-calendar-multiselect", to: "/calendar" },
     ],
   }),
 };

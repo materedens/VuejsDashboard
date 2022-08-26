@@ -30,6 +30,16 @@ const routes: Array<RouteConfig> = [
     name: "account",
     component: () => import("../views/AccountView.vue"),
   },
+  {
+    path: "/card",
+    name: "card",
+    component: () => import("../views/CardView.vue"),
+  },
+  {
+    path: "/calendar",
+    name: "calendar",
+    component: () => import("../views/CalendarView.vue"),
+  },
 ];
 
 const router = new VueRouter({
